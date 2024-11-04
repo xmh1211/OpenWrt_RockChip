@@ -11,11 +11,6 @@ name: openwrt-rockchip-docker
 on:
   repository_dispatch:
   workflow_dispatch:
-  #schedule:
-    #- cron: 0 17 * * *
-  # watch:
-  #   types: started
-
 env:
   REPO_URL: https://github.com/DHDAXCW/lede-rockchip
   REPO_BRANCH: stable
